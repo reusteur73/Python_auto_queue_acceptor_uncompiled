@@ -1,3 +1,4 @@
 pyautogui
 python-dotenv
 opencv-python
+numpy
