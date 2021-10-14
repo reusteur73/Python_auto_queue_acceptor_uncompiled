@@ -26,3 +26,8 @@ python.exe PATH_TO_accept.py
 ## Usage
 
 Just run run.cmd and queue up! :-)
+
+## Demonstration
+
+![alt text](demonstration.gif)
+
