@@ -4,7 +4,7 @@ I was inspired by the lucassmonn code
 
 ## Installation
 
-/!\You must have python3.6 to run this script/!\ - [python dowload](https://www.python.org/downloads/)
+/!\You must have python3.6 to run this script/!\ - [python download](https://www.python.org/downloads/)
 
 
 Install using pip - [How to install pip on Windows](https://stackoverflow.com/questions/43304612/how-to-install-pip-on-python-3-6#:~:text=Just%20head%20to%20Command%20Prompt,of%20path%20variable%20is%20updated.&text=0-,I%20just%20successfully%20installed%20a%20package%20for%20excel.,the%20desired%20package%2C%20then%20install.)
