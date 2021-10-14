@@ -11,8 +11,8 @@ def click(x, y):
 
 
 def check_screen():
-    button = pyautogui.locateOnScreen('C:/Users/maloa/Documents/Python/queue_acceptor/en.png', confidence=0.7)
-    buttonPt = pyautogui.locateOnScreen('C:/Users/maloa/Documents/Python/queue_acceptor/pt.png', confidence=0.7)
+    button = pyautogui.locateOnScreen('ABSOLUTE_PATH_TO/queue_acceptor/en.png', confidence=0.7)
+    buttonPt = pyautogui.locateOnScreen('ABSOLUTE_PATH_TO/queue_acceptor/pt.png', confidence=0.7)
 
     if button != None:
         click(button.left, button.top)
