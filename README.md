@@ -2,7 +2,11 @@
 I was inspired by the lucassmonn code
 [accept-queue-lol-telegram](https://github.com/lucassmonn/accept-queue-lol-telegram), and I modify it according to my needs.
 
-## Installation
+# Uncompiled version
+You will have to follow the installation for everything to work.  
+Prefer the [compile version](https://github.com/reusteur73/LoL-queue-Acceptor-windows), no installation required to simplify the task.
+
+# Installation
 
 /!\You must have python3.6 to run this script/!\ - [python download](https://www.python.org/downloads/)
 
@@ -23,11 +27,11 @@ run.bat
 cd PATH_TO_PYTHON3.6_FOLDER
 python.exe PATH_TO_accept.py
 ```
-## Usage
+# Usage
 
 Just run run.cmd and queue up! :-)
 
-## Demonstration
+# Demonstration
 
 ![alt text](2.gif)
 
