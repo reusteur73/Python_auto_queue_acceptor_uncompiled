@@ -2,3 +2,8 @@ pyautogui
 python-dotenv
 opencv-python
 numpy
+requests
+time
+colorama
+termcolor
+dotenv
