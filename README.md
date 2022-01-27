@@ -4,7 +4,7 @@ I was inspired by the lucassmonn code
 
 # Uncompiled version
 You will have to follow the installation for everything to work.  
-Prefer the [compiled version](https://github.com/reusteur73/LoL-queue-Acceptor-windows), no installation required to simplify the task.
+Prefer the [compiled version](https://github.com/reusteur73/LoL-queue-Acceptor-windows/releases/tag/1.2), no installation required to simplify the task.
 
 # Installation
 
