@@ -1,10 +1,6 @@
-from tarfile import GNUTYPE_LONGLINK
-from tkinter import E
 import requests
 from time import sleep
 import pyautogui
-from os.path import join, dirname
-from dotenv import load_dotenv
 from colorama import init
 from termcolor import colored
 import urllib3
@@ -361,15 +357,28 @@ while True:
         print(colored('                  [4] - To Disable Match Accept Notifier', 'blue'))
         print('\n'*3)
         x = input("Choice (must be number) =")
-        if isinstance(int(x), int):
-            try:
+        
+        try:
+            if x.isnumeric() == True:
                 if int(x) == 1:
+                    print('\n'*60)
+                    print(colored('                  Loading Button Path Setup', 'green'))
+                    print('\n'*3)
+                    sleep(1)
                     change_lang()
                     pass
                 if int(x) == 2:
+                    print('\n'*60)
+                    print(colored('                  Loading Discord Notifier Setup', 'green'))
+                    print('\n'*3)
+                    sleep(1)
                     change_notifier()
                     pass
                 if int(x) == 3:
+                    print('\n'*60)
+                    print(colored('                  Loading Telegram Notifier Setup', 'green'))
+                    print('\n'*3)
+                    sleep(1)
                     change_notifier()
                     pass
                 if int(x) == 4:
@@ -379,17 +388,21 @@ while True:
 
                     z = input('Choice(Y or N) =')
                     if str(z) == "Y":
+                        print('\n'*60)
+                        print(colored('                  Loading Disabler Notifier', 'green'))
+                        print('\n'*3)
+                        sleep(1)
                         disable_notifier()
                     else:
                         print('\n'*60)
                         print(colored('                Operation cancelled1', 'blue'))
                         print('\n'*3)
                         sleep(2.5)
-            except KeyboardInterrupt:
+            else:
+                print('\n'*60)
                 print(colored('                  Resuming...', 'green'))
-                continue
-        else:
-            print('\n'*60)
-            print(colored('                 Please enter a number in the list', 'red'))
-            print('\n'*3)
-            sleep(3)
+                print('\n'*3)
+                sleep(1)
+        except KeyboardInterrupt:
+            continue
+        
